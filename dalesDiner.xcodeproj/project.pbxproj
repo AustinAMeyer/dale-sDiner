@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		26F8143C22D275BE00B3E983 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F8143B22D275BE00B3E983 /* main.m */; };
+		26F8144422D2763800B3E983 /* TableCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F8144322D2763800B3E983 /* TableCheck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		26F8143822D275BE00B3E983 /* dalesDiner */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dalesDiner; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F8143B22D275BE00B3E983 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26F8144222D2763800B3E983 /* TableCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableCheck.h; sourceTree = "<group>"; };
+		26F8144322D2763800B3E983 /* TableCheck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableCheck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				26F8143B22D275BE00B3E983 /* main.m */,
+				26F8144222D2763800B3E983 /* TableCheck.h */,
+				26F8144322D2763800B3E983 /* TableCheck.m */,
 			);
 			path = dalesDiner;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26F8143C22D275BE00B3E983 /* main.m in Sources */,
+				26F8144422D2763800B3E983 /* TableCheck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
