@@ -10,8 +10,12 @@
 
 @implementation TableCheck
 
-
-
-
+- (id) init {
+    self = [super init];
+    if (self) {
+    self.itemsOrdered = [[NSMutableArray alloc] init];
+}
+    return self;
+}
 
 @end
