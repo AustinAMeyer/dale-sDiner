@@ -7,8 +7,10 @@
 //
 
 #import "TableCheck.h"
-
+float taxRate = .08;
 @implementation TableCheck
+
+
 
 - (id) init {
     self = [super init];
@@ -17,5 +19,20 @@
 }
     return self;
 }
+
+
+- (void)addTax{
+    self.total = self.subtotal * (1 + taxRate);
+}
+
+- (void)addMenuItem:(MenuItem*)menuItem{
+    
+    [self.itemsOrdered addObject:menuItem.itemName];
+    self.subtotal += menuItem.ItemPrice;
+    
+    
+}
+
+
 
 @end

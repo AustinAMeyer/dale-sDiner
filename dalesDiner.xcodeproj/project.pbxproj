@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26CDCB1222D6C30600DCC533 /* GroupTableCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CDCB1122D6C30600DCC533 /* GroupTableCheck.m */; };
 		26F8143C22D275BE00B3E983 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F8143B22D275BE00B3E983 /* main.m */; };
 		26F8144422D2763800B3E983 /* TableCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F8144322D2763800B3E983 /* TableCheck.m */; };
 		26F8144722D27F4E00B3E983 /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F8144622D27F4E00B3E983 /* MenuItem.m */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		26CDCB1022D6C30600DCC533 /* GroupTableCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupTableCheck.h; sourceTree = "<group>"; };
+		26CDCB1122D6C30600DCC533 /* GroupTableCheck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupTableCheck.m; sourceTree = "<group>"; };
 		26F8143822D275BE00B3E983 /* dalesDiner */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dalesDiner; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F8143B22D275BE00B3E983 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		26F8144222D2763800B3E983 /* TableCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableCheck.h; sourceTree = "<group>"; };
@@ -65,9 +68,11 @@
 			children = (
 				26F8143B22D275BE00B3E983 /* main.m */,
 				26F8144222D2763800B3E983 /* TableCheck.h */,
+				26F8144322D2763800B3E983 /* TableCheck.m */,
+				26CDCB1022D6C30600DCC533 /* GroupTableCheck.h */,
+				26CDCB1122D6C30600DCC533 /* GroupTableCheck.m */,
 				26F8144522D27F4E00B3E983 /* MenuItem.h */,
 				26F8144622D27F4E00B3E983 /* MenuItem.m */,
-				26F8144322D2763800B3E983 /* TableCheck.m */,
 			);
 			path = dalesDiner;
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 				26F8144722D27F4E00B3E983 /* MenuItem.m in Sources */,
 				26F8143C22D275BE00B3E983 /* main.m in Sources */,
 				26F8144422D2763800B3E983 /* TableCheck.m in Sources */,
+				26CDCB1222D6C30600DCC533 /* GroupTableCheck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

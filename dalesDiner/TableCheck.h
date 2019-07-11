@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MenuItem.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -19,8 +20,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic) bool isTakeOut;
 @property (nonatomic, strong) NSMutableArray *itemsOrdered;
 @property (nonatomic, readonly) NSString *checkID;
+@property (nonatomic) int numberOfCustomers;
 
-
+- (void)addTax;
+- (void)addMenuItem:(MenuItem*)menuItem;
 /*
  int ServerNumber; //Which server handles the table
  int tableNumber; //which physical table
