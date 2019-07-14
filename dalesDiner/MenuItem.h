@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface MenuItem : NSObject
 
 @property (nonatomic, strong) NSString *itemName;
-@property (nonatomic) float ItemPrice;
+@property (nonatomic) float itemPrice;
 @property (nonatomic) bool isBeverage;
 
 

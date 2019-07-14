@@ -11,6 +11,7 @@
 		26F8143C22D275BE00B3E983 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F8143B22D275BE00B3E983 /* main.m */; };
 		26F8144422D2763800B3E983 /* TableCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F8144322D2763800B3E983 /* TableCheck.m */; };
 		26F8144722D27F4E00B3E983 /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F8144622D27F4E00B3E983 /* MenuItem.m */; };
+		26FDB80C22D94BE3004864E6 /* CateringOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FDB80B22D94BE3004864E6 /* CateringOrder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		26F8144322D2763800B3E983 /* TableCheck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableCheck.m; sourceTree = "<group>"; };
 		26F8144522D27F4E00B3E983 /* MenuItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuItem.h; sourceTree = "<group>"; };
 		26F8144622D27F4E00B3E983 /* MenuItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuItem.m; sourceTree = "<group>"; };
+		26FDB80A22D94BE3004864E6 /* CateringOrder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CateringOrder.h; sourceTree = "<group>"; };
+		26FDB80B22D94BE3004864E6 /* CateringOrder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CateringOrder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,8 @@
 				26F8144322D2763800B3E983 /* TableCheck.m */,
 				26CDCB1022D6C30600DCC533 /* GroupTableCheck.h */,
 				26CDCB1122D6C30600DCC533 /* GroupTableCheck.m */,
+				26FDB80A22D94BE3004864E6 /* CateringOrder.h */,
+				26FDB80B22D94BE3004864E6 /* CateringOrder.m */,
 				26F8144522D27F4E00B3E983 /* MenuItem.h */,
 				26F8144622D27F4E00B3E983 /* MenuItem.m */,
 			);
@@ -136,6 +141,7 @@
 				26F8144722D27F4E00B3E983 /* MenuItem.m in Sources */,
 				26F8143C22D275BE00B3E983 /* main.m in Sources */,
 				26F8144422D2763800B3E983 /* TableCheck.m in Sources */,
+				26FDB80C22D94BE3004864E6 /* CateringOrder.m in Sources */,
 				26CDCB1222D6C30600DCC533 /* GroupTableCheck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

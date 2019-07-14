@@ -12,8 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface GroupTableCheck : TableCheck
 
-- (void)addTip;
-- (void)checkMinimum;
+- (TableCheck*)addTip;
+- (TableCheck*)checkMinimum;
 
 @end
 
